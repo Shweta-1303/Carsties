@@ -62,7 +62,6 @@ public class AuctionsController : ControllerBase
     
     [Authorize]
     [HttpPost]
-    [Route("CreateAuction")]
     public async Task<ActionResult<AuctionDto>> CreateAuction(CreateAuctionDto auctionDto)
     {
         var auction = _mapper.Map<Auction>(auctionDto);
