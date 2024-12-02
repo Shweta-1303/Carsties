@@ -1,6 +1,8 @@
 ﻿using Contracts;
 using MassTransit;
 using MongoDB.Entities;
+using System;
+using SearchService.Models;
 
 namespace SearchService.Consumers;
 
